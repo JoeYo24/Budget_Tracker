@@ -1,9 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import AbcIcon from '@mui/icons-material/Abc';
+import './styles.css'
 
 const Home = () => {
   return (
-    <h2>Hello World!</h2>
+    <div className='bg-blue-500 text-white p-4 rounded-lg shadow-md'>    
+        <h2 className='text-lg font-semibold'>
+            Hello World!
+            <AbcIcon />
+        </h2>
+    </div>   
   )
 };
 
